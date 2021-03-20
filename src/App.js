@@ -1,4 +1,4 @@
-import './normalize.css';
+import './app.css';
 import RootComponent from './rootComponent/rootComponent'
 
 function App() {

@@ -7,9 +7,10 @@ const StyledRootComponent = styled.div`
 
 
   .content-wrapper {
-    padding: 50px 10%;
+    padding: 50px 12vw;
+
     background-color: #111111;
-    height: 72%;
+    height: 72vh;
     width: 100%;
 
   }

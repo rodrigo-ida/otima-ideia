@@ -6,7 +6,6 @@
 
 *{
 	box-sizing: border-box;
-	font-family: Product-sans;
 
 
 }
@@ -39,12 +38,17 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	background-color: #FAFAFA;
+	font-family: Product-sans;
+	
+
 
 }
 @font-face {
-	font-family: Product-sans;
+	font-family: "Product-sans";
 	src: url('./assets/product-sans/ProductSansRegular.ttf');
 }
+
 ol, ul {
 	list-style: none;
 }

@@ -18,16 +18,18 @@ const StyledNavbar = styled.nav`
   }
 
   .links-list {
+    
     display: flex;
-    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+
 
     li {
-      padding-left: 3.125em;
-
       a {
         color: #ffffff;
-        font-size: 0.875em;
+        font-size: 1.1875em;
         text-decoration: none;
+        font-family: Dana;
       }
     }
   }

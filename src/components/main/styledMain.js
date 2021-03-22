@@ -20,13 +20,14 @@ const StyledMain = styled.main`
   }
 
   .second-group-wrapper {
-
-    margin-top: 25vw;
+    margin-top: 62vh;
     padding: 0px 12vw;
 
-    height: 500px;
+    height: auto;
+    .sessions-wrapper {
+      margin-top: 13vh;
+    }
   }
-
 `;
 
 export default StyledMain;

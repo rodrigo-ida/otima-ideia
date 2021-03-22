@@ -6,7 +6,9 @@ import Main from "../components/main/main";
 import Carousel from "../components/carousel/carousel";
 import About from "../components/about/about";
 import Experience from "../components/experience/experience";
-import Sessions from '../components/sessions/sessions'
+import Sessions from "../components/sessions/sessions";
+import Masters from "../components/masters/masters";
+
 
 const RootComponent = () => {
   return (
@@ -29,7 +31,12 @@ const RootComponent = () => {
               </section>
             </section>
             <section className="second-group-wrapper">
-              <Sessions />
+              <section className="sessions-wrapper">
+                <Sessions />
+              </section>
+              <section className="masters">
+                <Masters />
+              </section>
             </section>
           </Main>
         </div>

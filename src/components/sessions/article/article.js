@@ -6,7 +6,7 @@ import {ReactComponent as PlayBtnIcon} from "../../../assets/sessions/icons/play
 const Article = (props) => {
 
   const photo = props.profilePhoto.map( (e, i) => (
-    <img src={props.profilePhoto[i]} />
+    <img src={props.profilePhoto[i]} key={i + 'profilePhoto'} alt="teacher" />
   ))
   
   return(

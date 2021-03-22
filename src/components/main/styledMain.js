@@ -22,11 +22,30 @@ const StyledMain = styled.main`
   .second-group-wrapper {
     margin-top: 62vh;
     padding: 0px 12vw;
+    position: relative;
+    z-index: 3;
 
-    height: auto;
+    height: 461vh;
     .sessions-wrapper {
       margin-top: 13vh;
     }
+  }
+
+  .third-group-wrapper {
+    background-color: #fafafa;
+    padding: 50vh 12vw;
+    position: relative;
+    z-index: 1;
+
+    .faq-wrapper{
+
+    margin-top: 13vh;
+    }
+
+
+
+
+
   }
 `;
 

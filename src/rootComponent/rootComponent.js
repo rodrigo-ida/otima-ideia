@@ -8,6 +8,7 @@ import About from "../components/about/about";
 import Experience from "../components/experience/experience";
 import Sessions from "../components/sessions/sessions";
 import Masters from "../components/masters/masters";
+import Faq from '../components/faq/faq'
 
 
 const RootComponent = () => {
@@ -36,6 +37,11 @@ const RootComponent = () => {
               </section>
               <section className="masters">
                 <Masters />
+              </section>
+            </section>
+            <section className="third-group-wrapper">
+              <section className="faq-wrapper">
+                <Faq />
               </section>
             </section>
           </Main>

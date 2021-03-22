@@ -5,6 +5,11 @@ const StyledMasters = styled.section`
   box-shadow: 50px 0px 99px #6464640F;
   border-radius: 30px;
 
+  background-color: white;
+
+    .title-wrapper{
+        padding-top: 30px;
+    }
 
   .masters-list {
     display: flex;

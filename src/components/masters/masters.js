@@ -19,7 +19,10 @@ const Masters = () => {
 
   return (
     <StyledMasters>
+      <div className="title-wrapper">
+
       <TitleGenerator title="Masters" backgroundLetters="Masters" />
+      </div>
       <div className="masters-gallery">
         <ul className="masters-list">
             {allMasters}

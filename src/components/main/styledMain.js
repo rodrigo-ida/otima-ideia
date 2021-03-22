@@ -33,7 +33,7 @@ const StyledMain = styled.main`
 
   .third-group-wrapper {
     background-color: #fafafa;
-    padding: 50vh 12vw;
+    padding: 50vh 12vw 100px 12vw;
     position: relative;
     z-index: 1;
 
@@ -42,10 +42,16 @@ const StyledMain = styled.main`
     margin-top: 13vh;
     }
 
+  }
 
+  .fourth-group-wrapper{
+    background-color: black;
+    height: 55vh;
 
+  }
 
-
+  .fifth-group-wrapper{
+    
   }
 `;
 

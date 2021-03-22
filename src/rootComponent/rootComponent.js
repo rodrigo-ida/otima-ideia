@@ -8,9 +8,10 @@ import About from "../components/about/about";
 import Experience from "../components/experience/experience";
 import Sessions from "../components/sessions/sessions";
 import Masters from "../components/masters/masters";
-import Faq from '../components/faq/faq'
-import CourseFee from '../components/courseFee/courseFee'
-
+import Faq from "../components/faq/faq";
+import CourseFee from "../components/courseFee/courseFee";
+import EmailSignIn from "../components/emailSignIn/emailSignIn";
+import Projects from "../components/projects/projects";
 
 const RootComponent = () => {
   return (
@@ -47,6 +48,12 @@ const RootComponent = () => {
               <section className="course-fee-wrapper">
                 <CourseFee />
               </section>
+            </section>
+            <section className="fourth-group-wrapper">
+              <EmailSignIn />
+            </section>
+            <section className="fifth-group-wrapper">
+              <Projects />
             </section>
           </Main>
         </div>

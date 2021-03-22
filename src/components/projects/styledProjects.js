@@ -1,7 +1,8 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
-const StyledCourseFee = styled.section`
-  width: 100%;
+const StyledProjects = styled.section`
+
+width: 100%;
   /* height: 100vh; */
   padding: 10vh 10px;
   margin-top: 100px;
@@ -109,15 +110,6 @@ const StyledCourseFee = styled.section`
     }
   }
 
-  hr {
-    width: 90%;
-  }
+`
 
-  footer {
-    color: rgba(0, 0, 0, 0.4);
-    text-align: center;
-    padding-top: 30px;
-  }
-`;
-
-export default StyledCourseFee;
+export default StyledProjects

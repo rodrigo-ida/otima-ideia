@@ -10,7 +10,7 @@ import StyledArticle from './article/article'
 const allsessions = sessionData.map(e => {
 
   return(
-    <StyledArticle sessionNumber={e.sessionNumber} profilePhoto={e.profilePhoto} description={e.description} />
+    <StyledArticle key={e.sessionNumber + 'session'} sessionNumber={e.sessionNumber} profilePhoto={e.profilePhoto} description={e.description} />
 
   )
 })

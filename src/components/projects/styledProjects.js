@@ -3,49 +3,21 @@ import styled from 'styled-components'
 const StyledProjects = styled.section`
 
 width: 100%;
-  /* height: 100vh; */
-  padding: 10vh 10px;
+  padding: 10vh 12vw;
   margin-top: 100px;
 
   background-color: white;
   border-radius: 30px;
   box-shadow: 50px 50px 99px #2222220f;
 
-  .carousel-wrapper {
-    display: flex;
-    padding: 2rem 0;
-
-    .btn-wrapper {
+   .main-content-wrapper {
       display: flex;
-      align-items: center;
-
-      .right-arrow {
-        transform: rotateY(180deg);
-      }
-
-      .btn {
-        width: 50px;
-        height: 100px;
-        background-color: transparent;
-        border: none;
-
-        svg {
-          transform: scale(0.6);
-          width: 100%;
-          height: 100%;
-        }
-      }
-    }
-
-    .main-content-wrapper {
-      display: flex;
-      justify-content: space-between;
       width: 100%;
-      /* padding-bottom: 44px;
-    border-bottom: 1px solid gray; */
+      padding: 60px 0;
+
 
       .text-wrapper {
-        width: 70%;
+        width: 55%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -53,12 +25,29 @@ width: 100%;
         .paragraph-wrapper {
           .benefits-title {
             font-weight: bolder;
-            font-size: 1.1rem;
+    font-size: 2.3rem;
+    padding: 2rem 0;
+
+            .bullet{
+                display: inline-block;
+                width:30px;
+                height: 30px;
+                background-color: black;
+                border-radius: 40px;
+
+            }
+          }
+
+          .description{
+              line-height: 3rem;
+              font-size: 1.1rem;
+
           }
 
           .benefits {
             padding-top: 40px;
             font-size: 0.8rem;
+
 
             .checked-icon {
               background-color: #29d089;
@@ -73,42 +62,89 @@ width: 100%;
             }
           }
         }
+        .carousel-counter{
+            background-color: rgba(0,0,0,.3);
+            width: 100px;
+            height: 50px;
+            border-radius: 10px;
+            margin-top: 60px;
+            display: flex;
+    justify-content: center;
+    align-items: center;
+
+        }
       }
 
-      .cta-div {
-        background-color: black;
-        color: white;
-        border-radius: 25px;
-        padding: 40px;
-        width: 44%;
 
-        ul {
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
+  .carousel-wrapper {
+    display: flex;
+    padding: 2rem 0;
+    width: 44%;
 
-          .conditions {
-            font-size: 0.8rem;
-          }
+    .carousel-content-wrapper{
+        padding: 86px;
+        height: 100%;
+    width: 100%;
 
-          .cta-item {
-            text-align: center;
-            padding: 10px;
+    background: #F5F5F5 ;
+border-radius: 30px;
 
-            .cta-btn {
-              width: 10vw;
-              height: 7vh;
-              background: #f46632;
-              border-radius: 16px;
-              color: white;
-              border: none;
-              font-weight: 700;
-            }
-          }
+
+    .carousel-content{
+        width: 100%;
+        height: 100%;
+        background-color: white;
+
+
+    }
+    }
+
+    .btn-wrapper-left{
+        transform: translateX(50px)
+
+    }
+    .btn-wrapper-right{
+        transform: translateX(-50px)
+
+    }
+
+    .btn-wrapper {
+      display: flex;
+      align-items: flex-end;
+      padding-bottom: 50px;
+
+
+      .right-arrow {
+        transform: rotateY(180deg);
+      }
+
+      .btn {
+        width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border: 2px solid #000000;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+
+        svg {
+            transform: scale(0.2);
+    width: 100px;
+    height: 120px;
         }
       }
     }
+
+   
+
+    
+
+      
+    
   }
+   }
 
 `
 

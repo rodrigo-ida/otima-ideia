@@ -1,56 +1,63 @@
-import StyledProjects from './styledProjects'
-import TitleGenerator from '../../util/titleGenerator'
-import CarouselArrow from "../../assets/carousel-arrow"; 
-
+import StyledProjects from "./styledProjects";
+import TitleGenerator from "../../util/titleGenerator";
+import CarouselArrow from "../../assets/carousel-arrow";
 
 const Projects = () => {
+  return (
+    <StyledProjects>
+      <TitleGenerator title="Projects" backgroundLetters="Projects" />
 
-    return(
-        <StyledProjects >
-            <TitleGenerator title="Projects" backgroundLetters="Projects"/>
-          <div className="carousel-wrapper">
-
-            <div className="btn-wrapper">
-        <button className="left-arrow btn">
-          <CarouselArrow />
-        </button>
-      </div>
       <div className="main-content-wrapper">
         <div className="text-wrapper">
-            
           <div className="paragraph-wrapper">
+            <h1 className="benefits-title">
+              <span className="bullet"></span>Design To Do List app
+            </h1>
+            <p className="description">
+              The previous student design project was the To Do List application
+              product factory, The counter examples are the result of the
+              efforts of the students and their teamwork in the first course.
+            </p>
             <ul>
-                <li> <h1 className="benefits-title"> What will be our achievements by participating in this course?</h1></li>
-                <li className="benefits"><span className="checked-icon">&#10004;</span> Learn the requirements of a product designer from experienced professionals in the field.</li>
-                <li className="benefits"><span className="checked-icon">&#10004;</span> Experience in-team work and product designer interactions within the real product team.</li>
-                <li className="benefits"><span className="checked-icon">&#10004;</span> Experience working on projects with information and feature lists and real user recognition.</li>
-                <li className="benefits"><span className="checked-icon">&#10004;</span> Possibility to take Adobe exams upon completion of course and upon registration. </li>
-
+              <li className="benefits">
+                <span className="checked-icon">&#10004;</span> Experience
+                in-team work and product designer interactions within the real
+                product team.
+              </li>
+              <li className="benefits">
+                <span className="checked-icon">&#10004;</span> Survey real users
+                and needs assessment and find the most suitable solution to
+                their problems.
+              </li>
+              <li className="benefits">
+                <span className="checked-icon">&#10004;</span> Design experience
+                from notebooks to user interface design software.
+              </li>
             </ul>
           </div>
+          <div className="carousel-counter">
+            <p>4 / 15 </p>
+          </div>
         </div>
-        <div className="cta-div">
-            <ul>
-                <li className="cta-item">4,000,000 Toman</li>
-                <li className="cta-item">2,300,000 Toman</li>
-                <li className="cta-item conditions">Possibility to pay periodic installment fee.</li>
-                <li className="cta-item">
-          <button className="cta-btn">Start Register</button>
+        <div className="carousel-wrapper">
+          <div className="btn-wrapper btn-wrapper-left">
+            <button className="left-arrow btn">
+              <CarouselArrow />
+            </button>
+          </div>
+          <div className="carousel-content-wrapper">
+            <div className="carousel-content"></div>
+          </div>
 
-                </li>
-            </ul>
-
+          <div className="btn-wrapper btn-wrapper-right">
+            <button className="right-arrow btn ">
+              <CarouselArrow />
+            </button>
+          </div>
         </div>
       </div>
-      <div className="btn-wrapper">
-        <button className="right-arrow btn">
-          <CarouselArrow />
-        </button>
-      </div>
-      </div>
+    </StyledProjects>
+  );
+};
 
-        </StyledProjects>
-    )
-}
-
-export default Projects
+export default Projects;

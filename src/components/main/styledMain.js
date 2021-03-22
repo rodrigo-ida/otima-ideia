@@ -53,6 +53,13 @@ const StyledMain = styled.main`
   .fifth-group-wrapper{
     
   }
+
+  .sixth-group-wrapper{
+
+    background-color: #FAFAFA;
+
+
+  }
 `;
 
 export default StyledMain;

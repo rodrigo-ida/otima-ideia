@@ -12,6 +12,8 @@ import Faq from "../components/faq/faq";
 import CourseFee from "../components/courseFee/courseFee";
 import EmailSignIn from "../components/emailSignIn/emailSignIn";
 import Projects from "../components/projects/projects";
+import Schedule from "../components/schedule/schedule";
+import Footer from '../components/footer/footer'
 
 const RootComponent = () => {
   return (
@@ -55,7 +57,11 @@ const RootComponent = () => {
             <section className="fifth-group-wrapper">
               <Projects />
             </section>
+            <section className="sixth-group-wrapper">
+              <Schedule />
+            </section>
           </Main>
+          <Footer />
         </div>
       </StyledRootComponent>
     </BrowserRouter>

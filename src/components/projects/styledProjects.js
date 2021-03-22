@@ -7,7 +7,6 @@ width: 100%;
   margin-top: 100px;
 
   background-color: white;
-  border-radius: 30px;
   box-shadow: 50px 50px 99px #2222220f;
 
    .main-content-wrapper {

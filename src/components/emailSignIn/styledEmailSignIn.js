@@ -53,12 +53,15 @@ const StyledEmailSignIn = styled.section`
 
     .image-wrapper {
 
+      height: 100%;
+      width: 47%;
+
         position: relative;
       .bigger-img {
         position: absolute;
         width:100%;
         height: 100%;
-    opacity: .2;
+    opacity: .1;
     background-image: url(${Img});
     background-repeat: no-repeat;
     background-size:cover;
@@ -69,6 +72,8 @@ const StyledEmailSignIn = styled.section`
     background-image: url(${Img});
     background-repeat: no-repeat;
     background-position: center;
+    height: 100%;
+
 
       }
     }

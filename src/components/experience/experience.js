@@ -1,13 +1,12 @@
 import StyledExperience from "./styledExperience";
 import {ReactComponent as Logo} from '../../assets/icons/experience-section/logo.svg'
+import TitleGenerator from '../../util/titleGenerator'
 
 const Experience = () => {
   return (
     <StyledExperience>
-      <div className="title-wrapper">
-        <h1 className="background-letters">Experience</h1>
-        <h3 className="title">Course Experience</h3>
-      </div>
+      <TitleGenerator title="Course Experience" backgroundLetters="Experience"/>
+
       <div className="modality-btn-wrapper">
         <button className="btn left-btn">After attending the course</button>
         <button className="btn middle-btn">During the Period</button>

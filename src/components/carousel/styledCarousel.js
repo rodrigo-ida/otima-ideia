@@ -4,6 +4,7 @@ const StyledCarousel = styled.div`
   width: 100%;
   height: 78vh;
   padding: 10vh 10px;
+  
 
 
   background-color: white;

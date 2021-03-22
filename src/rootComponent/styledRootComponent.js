@@ -2,12 +2,12 @@ import styled from "styled-components";
 
 const StyledRootComponent = styled.div`
   height: 100vh;
-  width: 100vw;
-  background-color: #FAFAFA;
+  width: 100%;
+  /* background-color: #FAFAFA; */
 
 
   .content-wrapper {
-    padding: 50px 12vw;
+    /* padding: 50px 12vw; */
 
     background-color: #111111;
     height: 72vh;

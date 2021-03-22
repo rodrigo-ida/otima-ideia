@@ -17,22 +17,7 @@ const StyledExperience = styled.div`
   flex-direction: column;
   justify-content: space-between;
 
-  .title-wrapper {
-    text-align: center;
-    position: relative;
-
-    .title {
-      font-size: 1.6vw;
-      position: relative;
-      top: -44px;
-      font-weight: bolder;
-    }
-    .background-letters {
-      font-size: 6.25vw;
-      opacity: 0.12;
-      font-weight: bolder;
-    }
-  }
+  
   .modality-btn-wrapper {
     display: flex;
     justify-content: center;
@@ -77,6 +62,8 @@ const StyledExperience = styled.div`
 
     }
     .description-wrapper {
+      width: 67%;
+
 
       .description {
         line-height: 2em;

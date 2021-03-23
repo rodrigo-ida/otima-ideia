@@ -8,7 +8,7 @@ const StyledMasters = styled.section`
   background-color: white;
 
     .title-wrapper{
-        padding-top: 30px;
+        padding-top: 60px;
     }
 
   .masters-list {

@@ -4,7 +4,7 @@ const StyledProjects = styled.section`
 
 width: 100%;
   padding: 10vh 12vw;
-  margin-top: 100px;
+  margin-top: 150px;
 
   background-color: white;
   box-shadow: 50px 50px 99px #2222220f;
@@ -13,6 +13,12 @@ width: 100%;
       display: flex;
       width: 100%;
       padding: 60px 0;
+
+      @media (min-height: 1000px){
+
+        padding: 100px 0 27px 0;
+
+      }
 
 
       .text-wrapper {
@@ -47,6 +53,13 @@ width: 100%;
             padding-top: 40px;
             font-size: 0.8rem;
 
+            @media (min-width: 1900px){
+            font-size: 1.1rem;
+            padding-top: 4rem;
+
+
+            }
+
 
             .checked-icon {
               background-color: #29d089;
@@ -79,6 +92,11 @@ width: 100%;
     display: flex;
     padding: 2rem 0;
     width: 44%;
+
+    @media (min-height: 1000px){
+      height: 32vw;
+
+    }
 
     .carousel-content-wrapper{
         padding: 86px;

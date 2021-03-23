@@ -6,7 +6,6 @@ const StyledExperience = styled.div`
 
   background-color: white;
 
-  /* height: 77.4vh; */
   height: 89.4vh;
 
 
@@ -67,6 +66,15 @@ const StyledExperience = styled.div`
 
       .description {
         line-height: 2em;
+        padding-left: 15px;
+
+
+        @media (min-width: 1900px){
+          line-height: 2.3em;
+    font-size: 1.2rem;
+    padding-left: 80px;
+
+        }
 
 
       }

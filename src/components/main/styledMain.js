@@ -9,6 +9,12 @@ const StyledMain = styled.main`
     background-color: #fafafa;
     height: 231vh;
 
+    @media (min-height: 1000px){
+      height: 161vh;
+
+
+    }
+
     .carousel {
       margin-top: -51vh;
     }
@@ -26,6 +32,15 @@ const StyledMain = styled.main`
     z-index: 3;
 
     height: 461vh;
+
+    @media (min-height: 1000px){
+
+    height: 263vh;
+    
+    }
+
+
+
     .sessions-wrapper {
       margin-top: 13vh;
     }
@@ -36,6 +51,12 @@ const StyledMain = styled.main`
     padding: 50vh 12vw 100px 12vw;
     position: relative;
     z-index: 1;
+
+    @media (min-height: 1000px){
+
+padding: 32vh 12vw 100px 12vw;
+
+}
 
     .faq-wrapper{
 

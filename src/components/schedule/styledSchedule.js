@@ -74,6 +74,12 @@ const StyledSchedule = styled.section`
     font-size: 1.5rem;    
     padding: 0.7rem 0;
 
+    @media (min-width: 1900px){
+
+      padding: 1.7rem 0;
+
+    }
+
 
  }
     }

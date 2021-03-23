@@ -12,7 +12,8 @@ const StyledCourseFee = styled.section`
 
   .carousel-wrapper {
     display: flex;
-    padding: 2rem 0;
+    padding: 6rem 0 2rem 0;
+
 
     .btn-wrapper {
       display: flex;

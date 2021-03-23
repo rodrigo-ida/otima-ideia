@@ -2,20 +2,25 @@ import styled from 'styled-components'
 
 const StyledTitle = styled.div`
 
-    text-align: center;
-    position: relative;
+ .title-wrapper{
+
+  justify-content: center;
+  align-items: center;
+  display:flex;
+
+
 
     .title {
       font-size: 1.6vw;
-      position: relative;
-      top: -44px;
       font-weight: bolder;
     }
     .background-letters {
       font-size: 6.25vw;
       opacity: 0.12;
       font-weight: bolder;
+      position: absolute;
     }
+ }
   
 
 

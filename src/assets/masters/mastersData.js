@@ -1,5 +1,4 @@
 
-import profilePhoto2 from '../sessions/profile-photo/2.png'
 import profilePhoto4 from '../sessions/profile-photo/4.png'
 import profilePhoto5 from '../sessions/profile-photo/5.png'
 import profilePhoto55 from '../sessions/profile-photo/55.png'
@@ -19,7 +18,7 @@ const mastersData = [
     {photo: profilePhoto88, title: 'Hesam Keramati', subtitle: 'Product designer at Bazaar'},
     {photo: profilePhoto10, title: 'Hassan Hemati', subtitle: 'Product designer at Alibaba'},
     {photo: profilePhoto6, title: 'Sheragim Moradi', subtitle: 'Marketing manager'},
-    {photo: profilePhoto2, title: 'Hadi Ebnodin', subtitle: 'Service designer'},
+    {photo: profilePhoto7, title: 'Hadi Ebnodin', subtitle: 'Service designer'},
     {photo: profilePhoto99, title: 'Moslem Ebrahimi', subtitle: 'Typeface designer'},
 ]
 

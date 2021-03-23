@@ -2,11 +2,11 @@ import styled from "styled-components";
 
 const StyledExperience = styled.div`
   margin-top: 123px;
-  padding: 9vh 7%;
+  padding: 12vh 7%;
 
   background-color: white;
 
-  height: 89.4vh;
+  height: 92.4vh;
 
 
   background: #ffffff;

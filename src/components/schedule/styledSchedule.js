@@ -1,10 +1,10 @@
 import styled from "styled-components";
 
 const StyledSchedule = styled.section`
-  padding: 9vw 12vw;
+  padding: 12vw 12vw;
 
   .schedule-content-wrapper {
-    margin-top: 50px;
+    margin-top: 80px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;

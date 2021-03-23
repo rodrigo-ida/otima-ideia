@@ -11,6 +11,11 @@ const StyledMasters = styled.section`
         padding-top: 60px;
     }
 
+    .masters-gallery{
+        padding-top: 50px;
+
+    
+
   .masters-list {
     display: flex;
     flex-wrap: wrap;
@@ -38,9 +43,20 @@ const StyledMasters = styled.section`
                     padding-bottom: 10px;
                     font-weight: bolder;
 
+                    @media (min-width: 1900px){
+                        font-size: 1.3rem;
+
+                    }
+
                 }
                 p{
                     font-size: 0.7rem;
+                    @media (min-width: 1900px){
+                    font-size: 0.9rem;
+
+                    }
+
+
                 }
             }
         }
@@ -48,6 +64,7 @@ const StyledMasters = styled.section`
     }
 
   }
+    }
 `;
 
 export default StyledMasters;

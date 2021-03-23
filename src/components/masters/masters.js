@@ -5,10 +5,10 @@ import masterData from "../../assets/masters/mastersData";
 const Masters = () => {
   const allMasters = masterData.map((e, i) => {
     return (
-      <li key={'master' + e.title} className="list-item">
+      <li key={"master" + e.title} className="list-item">
         <article>
           <figure>
-            <img src={e.photo} alt='master' />
+            <img src={e.photo} alt="master" />
             <figcaption>{e.title}</figcaption>
             <p className="subtitle">{e.subtitle}</p>
           </figure>
@@ -20,13 +20,10 @@ const Masters = () => {
   return (
     <StyledMasters>
       <div className="title-wrapper">
-
-      <TitleGenerator title="Masters" backgroundLetters="Masters" />
+        <TitleGenerator title="Masters" backgroundLetters="Masters" />
       </div>
       <div className="masters-gallery">
-        <ul className="masters-list">
-            {allMasters}
-        </ul>
+        <ul className="masters-list">{allMasters}</ul>
       </div>
     </StyledMasters>
   );

@@ -60,17 +60,18 @@ const StyledNavbar = styled.nav`
     top: 88px;
     right: 0%;
     z-index: 10;
-    background-color: rgba(255, 255, 255, 0.5);
-    height: auto;
     flex-direction: column;
-    width: auto;
     justify-content: space-evenly;
+    text-align: center;
+    width: 100%;
+    background: black;
+    height: 80%;
 
 
       li {
         padding: 10px;
         a {
-    color: black;
+    color: white;
         }
       }
     }

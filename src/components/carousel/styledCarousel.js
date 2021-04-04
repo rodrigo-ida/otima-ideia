@@ -103,21 +103,27 @@ const StyledCarousel = styled.div`
 
   @media (max-width: 900px){
 
+    .btn-wrapper {
+    display: none;
 
+    }
     .main-content-wrapper {
 
     .text-wrapper {
 
-      width: 90%;
+      width: 80%;
       
 
       .title-wrapper {
 
         .title {
+          font-size: calc(2vw + 1rem);
+
           
         }
         .subtitle {
 
+          font-size: calc(0.9vw + 1rem);
 
          
         }
@@ -134,6 +140,9 @@ const StyledCarousel = styled.div`
       }
 
       .cta-btn {
+        width: 100%;
+        margin-top: 10px;
+
        
       }
     }

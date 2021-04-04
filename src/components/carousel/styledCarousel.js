@@ -97,8 +97,56 @@ const StyledCarousel = styled.div`
     .carousel-img {
       width: 38%;
       height: 100%;
+
     }
   }
+
+  @media (max-width: 900px){
+
+
+    .main-content-wrapper {
+
+    .text-wrapper {
+
+      width: 90%;
+      
+
+      .title-wrapper {
+
+        .title {
+          
+        }
+        .subtitle {
+
+
+         
+        }
+        .faded-background-letters {
+        
+        }
+      }
+
+      .paragraph-wrapper {
+        p {
+              font-size: 1.1rem;
+
+        }
+      }
+
+      .cta-btn {
+       
+      }
+    }
+    .carousel-img {
+     
+     display: none;
+
+    }
+  }
+
+
+  }
+
 `;
 
 export default StyledCarousel;

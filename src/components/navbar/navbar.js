@@ -1,4 +1,5 @@
 import StyledNavbar from "./styledNavbar";
+import {useState, useEffect} from 'react'
 import { Link, NavLink } from "react-router-dom";
 import Logo from '../../assets/logo';
 
@@ -19,13 +20,32 @@ const links = allLinks.map((element, index) => (
 ));
 
 const Navbar = () => {
+
+
+  const [showLinks, setShowLinks] = useState(false)
+
+
+  
+  useEffect(()=>{
+
+    if(window.screen.availWidth > 900){ setShowLinks(prev => prev = true)}
+
+
+  },[])
+
+
   return (
-    <StyledNavbar>
+    <StyledNavbar showLinks={showLinks}>
         <Link to='#' className="logo-link">
             <Logo className="logo" />
             </Link>
-      <ul className="links-list">{links}</ul>
+      <ul className="links-list" >{links}</ul>
       <button className="register-btn">Register</button>
+      <button className="burger-btn" onClick={() => setShowLinks(!showLinks)}>
+        <div className="burger-stripes"></div>
+        <div className="burger-stripes"></div>
+        <div className="burger-stripes"></div>
+      </button>
     </StyledNavbar>
   );
 };

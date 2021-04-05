@@ -75,12 +75,12 @@ const StyledMain = styled.main`
     }
 
     .second-group-wrapper {
-      margin-top: 62vh;
+      margin-top: 47vh;
       padding: 0px 5vw;
       position: relative;
       z-index: 3;
 
-      height: 461vh;
+      height: 1075vh;
     }
 
     .third-group-wrapper {

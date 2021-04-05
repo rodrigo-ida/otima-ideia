@@ -155,7 +155,8 @@ const StyledAbout = styled.div`
         font-size: 2em;
         position: relative;
         z-index: 2;
-        top: 40%;
+        top: 58%;
+
       }
       .background-letters {
         font-size: 6rem;

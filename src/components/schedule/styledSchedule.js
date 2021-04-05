@@ -40,48 +40,120 @@ const StyledSchedule = styled.section`
     }
 
     .cta-div {
-
-        padding: 5rem 0 0 11rem;
-    width: 100%;
-    justify-content: space-around;
-    display: flex;
-    text-align: center;
-
-
+      padding: 5rem 0 0 11rem;
+      width: 100%;
+      justify-content: space-around;
+      display: flex;
+      text-align: center;
 
       .countdown {
         background-color: black;
-    color: white;
-    width: 2.9rem;
-    height: 2.9rem;
-    border-radius: 14px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+        color: white;
+        width: 2.9rem;
+        height: 2.9rem;
+        border-radius: 14px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
       }
       .description {
         font-size: 2rem;
-    font-weight: bolder;
+        font-weight: bolder;
       }
       .cta-btn {
-        background: #F46632 0% 0% no-repeat padding-box;
-    border-radius: 16px;
-    width: 38%;
-    color: white;
-    border: none;
-    font-size: 1.5rem;    
-    padding: 0.7rem 0;
+        background: #f46632 0% 0% no-repeat padding-box;
+        border-radius: 16px;
+        width: 38%;
+        color: white;
+        border: none;
+        font-size: 1.5rem;
+        padding: 0.7rem 0;
 
-    @media (min-width: 1900px){
-
-      padding: 1.7rem 0;
-
+        @media (min-width: 1900px) {
+          padding: 1.7rem 0;
+        }
+      }
     }
+  }
 
+  @media (max-width: 900px) {
+    padding: 12vw 5vw;
 
- }
+    .schedule-content-wrapper {
+      margin-top: 80px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+
+      .time-path {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 10%;
+
+        img {
+          width: 100%;
+        }
+      }
+
+      .date-wrapper {
+        padding-top: 40px;
+
+        display: flex;
+        justify-content: space-between;
+        .start,
+        .end {
+          background-color: white;
+          padding: 2.4rem 0;
+          width: 46%;
+          box-shadow: 40px 40px 99px #acacac29;
+          text-align: center;
+
+          border-radius: 26px;
+
+          p {
+            font-size: 1rem;
+            font-weight: bolder;
+            letter-spacing: 0.1rem;
+          }
+        }
+      }
+
+      .cta-div {
+        padding: 3rem 0;
+        width: 100%;
+        justify-content: space-around;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+
+        .countdown {
+          background-color: black;
+          color: white;
+          width: 2.9rem;
+          height: 2.9rem;
+          border-radius: 14px;
+          text-align: center;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        .description {
+          font-size: 2rem;
+          font-weight: bolder;
+          padding: 1rem 0;
+        }
+        .cta-btn {
+          background: #f46632 0% 0% no-repeat padding-box;
+          border-radius: 16px;
+          width: 38%;
+          color: white;
+          border: none;
+          font-size: 1.5rem;
+          padding: 0.7rem 0;
+        }
+      }
     }
   }
 `;

@@ -24,19 +24,33 @@ const StyledMain = styled.main`
   }
 
   .second-group-wrapper {
-    margin-top: 62vh;
+    margin-top: 700px;
     padding: 0px 12vw;
     position: relative;
     z-index: 3;
 
     height: 461vh;
 
+    @media (min-width:1300px){
+      margin-top: 470px;
+      height: 376vh;
+
+
+    }
+
     @media (min-height: 1000px) {
       height: 263vh;
     }
 
+    
+
     .sessions-wrapper {
       margin-top: 13vh;
+
+      @media (min-width: 1900px){
+        margin-top: 63vh;
+
+      }
     }
   }
 

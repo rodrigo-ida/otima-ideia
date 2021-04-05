@@ -70,6 +70,8 @@ const StyledMain = styled.main`
   @media (max-width: 900px) {
     .first-group-wrapper {
       padding: 50px 5vw;
+      height: 301vh;
+
     }
 
     .second-group-wrapper {

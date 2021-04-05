@@ -8,7 +8,6 @@ const StyledExperience = styled.div`
 
   height: 92.4vh;
 
-
   background: #ffffff;
   box-shadow: 50px 50px 99px #2929290f;
   border-radius: 30px;
@@ -16,7 +15,6 @@ const StyledExperience = styled.div`
   flex-direction: column;
   justify-content: space-between;
 
-  
   .modality-btn-wrapper {
     display: flex;
     justify-content: center;
@@ -47,36 +45,70 @@ const StyledExperience = styled.div`
   }
 
   .description-logo-wrapper {
-
     display: flex;
     justify-content: center;
 
-
     .logo-wrapper {
-
-        svg{
-    width: 17vw;
-    height: 26vh;
-        }
-
+      svg {
+        width: 17vw;
+        height: 26vh;
+      }
     }
     .description-wrapper {
       width: 67%;
-
 
       .description {
         line-height: 2em;
         padding-left: 15px;
 
-
-        @media (min-width: 1900px){
+        @media (min-width: 1900px) {
           line-height: 2.3em;
-    font-size: 1.2rem;
-    padding-left: 80px;
-
+          font-size: 1.2rem;
+          padding-left: 80px;
         }
+      }
+    }
+  }
 
+  @media (max-width: 900px) {
+    margin-top: 65px;
+    padding: 12vh 0%;
+    background-color: white;
+    height: auto;
 
+    .modality-btn-wrapper {
+
+      padding: 15px 0;
+
+      .btn {
+        width: 25vw;
+
+      }
+
+      .left-btn {
+      }
+      .right-btn {
+      }
+
+      .checked {
+      }
+    }
+
+    .description-logo-wrapper {
+
+      padding: 0 5vw;
+
+      .logo-wrapper {
+        display: none;
+
+        svg {
+        }
+      }
+      .description-wrapper {
+        width: 100%;
+
+        .description {
+        }
       }
     }
   }

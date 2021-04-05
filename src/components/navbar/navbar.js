@@ -29,6 +29,10 @@ const Navbar = () => {
   useEffect(()=>{
 
     if(window.screen.availWidth > 900){ setShowLinks(prev => prev = true)}
+    else{
+setShowLinks(prev => prev = false)
+
+    }
 
 
   },[])

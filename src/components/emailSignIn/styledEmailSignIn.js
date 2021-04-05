@@ -78,6 +78,31 @@ const StyledEmailSignIn = styled.section`
       }
     }
   }
+
+  @media (max-width: 900px){
+
+
+
+    .content-wrapper {
+
+.form-wrapper {
+
+  form {
+
+    .message {
+      line-height:1.2rem;
+    }
+  }
+}
+      .image-wrapper {
+
+        display: none;
+
+      }
+      }
+
+    
+  }
 `;
 
 export default StyledEmailSignIn;

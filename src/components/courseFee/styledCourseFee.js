@@ -14,6 +14,7 @@ const StyledCourseFee = styled.section`
     display: flex;
     padding: 6rem 0 2rem 0;
 
+
     .btn-wrapper {
       display: flex;
       align-items: center;
@@ -64,7 +65,7 @@ const StyledCourseFee = styled.section`
               border-radius: 65px;
               padding: 7px 10px;
             }
-
+            
             p {
               line-height: 1.7em;
               font-size: 1.5vw;
@@ -119,46 +120,70 @@ const StyledCourseFee = styled.section`
     padding-top: 30px;
   }
 
-  @media (max-width: 900px) {
-    .carousel-wrapper {
-      .btn-wrapper {
-        display: none;
+  @media (max-width: 900px){
 
-        .right-arrow {
-        }
+   
 
-        .btn {
-          svg {
-          }
-        }
+  .carousel-wrapper {
+   
+
+
+    .btn-wrapper {
+     
+
+      display: none;
+
+      .right-arrow {
+      
       }
 
-      .main-content-wrapper {
-        flex-direction: column;
-        padding: 0 10px;
-        line-height: 1.4rem;
+      .btn {
+       
+        svg {
+         
+        }
+      }
+    }
 
-        .text-wrapper {
-          width: 100%;
-          padding-bottom: 15px;
+    .main-content-wrapper {
+      
+      flex-direction: column;
+      padding: 0 10px;
+    line-height: 1.4rem;
+     
+      .text-wrapper {
+      
+        width: 100%;
+        padding-bottom: 15px;
 
-          .cta-div {
-            width: 100%;
 
-            ul {
-              .conditions {
-              }
 
-              .cta-item {
-                .cta-btn {
-                  min-width: 150px;
-                }
-              }
+        
+      }
+
+      .cta-div {
+       
+        width: 100%;
+
+        ul {
+        
+
+
+
+          .cta-item {
+
+            .cta-btn {
+             
+              min-width: 150px;
+
             }
           }
         }
       }
     }
+  }
+
+
   }
 `;
 

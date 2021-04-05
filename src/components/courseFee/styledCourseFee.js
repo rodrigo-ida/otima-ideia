@@ -14,7 +14,6 @@ const StyledCourseFee = styled.section`
     display: flex;
     padding: 6rem 0 2rem 0;
 
-
     .btn-wrapper {
       display: flex;
       align-items: center;
@@ -65,7 +64,7 @@ const StyledCourseFee = styled.section`
               border-radius: 65px;
               padding: 7px 10px;
             }
-            
+
             p {
               line-height: 1.7em;
               font-size: 1.5vw;
@@ -118,6 +117,48 @@ const StyledCourseFee = styled.section`
     color: rgba(0, 0, 0, 0.4);
     text-align: center;
     padding-top: 30px;
+  }
+
+  @media (max-width: 900px) {
+    .carousel-wrapper {
+      .btn-wrapper {
+        display: none;
+
+        .right-arrow {
+        }
+
+        .btn {
+          svg {
+          }
+        }
+      }
+
+      .main-content-wrapper {
+        flex-direction: column;
+        padding: 0 10px;
+        line-height: 1.4rem;
+
+        .text-wrapper {
+          width: 100%;
+          padding-bottom: 15px;
+
+          .cta-div {
+            width: 100%;
+
+            ul {
+              .conditions {
+              }
+
+              .cta-item {
+                .cta-btn {
+                  min-width: 150px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
   }
 `;
 

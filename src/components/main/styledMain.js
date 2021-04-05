@@ -80,7 +80,7 @@ const StyledMain = styled.main`
       position: relative;
       z-index: 3;
 
-      height: 1075vh;
+      height: 1119vh;
     }
 
     .third-group-wrapper {

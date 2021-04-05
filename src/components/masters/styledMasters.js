@@ -68,22 +68,7 @@ const StyledMasters = styled.section`
           min-width: 130px;
           padding-bottom: 20px;
 
-          article {
-            figure {
-              img {
 
-              }
-
-              figcaption {
-
-
-
-              }
-              p {
-
-              }
-            }
-          }
         }
       }
     }
